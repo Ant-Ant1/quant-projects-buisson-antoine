@@ -19,7 +19,7 @@ Diebold–Mariano tests, RMSE/MAE metrics, and backtests on ATM straddles.
 **🧰 Stack:**  
 Python (NumPy, Pandas, arch, PyTorch, Matplotlib)  
 
-📂 Folder: [`projet_vol/`](./projet_vol/)
+📂 Folder: 1 - Research Project  - Volatility Forecasting
 
 ---
 
@@ -37,7 +37,7 @@ Put–Call parity, convergence log–log slope (≈ –0.5), IC95 confidence int
 **🧰 Stack:**  
 Python (NumPy, SciPy, Matplotlib, Jupyter)
 
-📂 Folder: [`projet_pricing/`](./projet_pricing/)
+📂 Folder: 2 - Research Project - Option Pricing with Black–Scholes & Monte Carlo
 
 ---
 
