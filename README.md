@@ -1,4 +1,4 @@
-# Quantitative Finance Projects — Warren Brisacier
+# Quantitative Finance Projects — BUISSON Antoine
 
 This repository gathers two end-to-end **quantitative finance projects** developed to prepare for Quant Research & Quant Dev interviews.  
 Each project follows a clean, reproducible Python pipeline with strong theoretical grounding and statistical validation.
