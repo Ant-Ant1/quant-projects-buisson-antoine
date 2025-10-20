@@ -1,0 +1,12 @@
+| Horizon   | Comparaison   |    n |   t_stat |    p_value |
+|:----------|:--------------|-----:|---------:|-----------:|
+| 1 jour    | LSTM vs EWM   | 1141 |  46.6252 | 2.023e-266 |
+| 1 jour    | LSTM vs HAR   | 1141 |  33.2069 | 1.056e-169 |
+| 1 jour    | Blend vs LSTM | 1141 | -36.718  | 1.933e-195 |
+| 1 jour    | Blend vs EWM  | 1141 |  49.2585 | 1.322e-284 |
+| 1 jour    | HAR vs EWM    | 1141 |  25.3373 | 1.036e-112 |
+| 5 jours   | LSTM vs EWM   | 1141 |  24.4477 | 1.804e-106 |
+| 5 jours   | LSTM vs HAR   | 1141 |  10.3903 | 3.182e-24  |
+| 5 jours   | Blend vs LSTM | 1141 |   1.5522 | 0.1209     |
+| 5 jours   | Blend vs EWM  | 1141 |  24.4477 | 1.804e-106 |
+| 5 jours   | HAR vs EWM    | 1141 |   8.6144 | 2.309e-17  |

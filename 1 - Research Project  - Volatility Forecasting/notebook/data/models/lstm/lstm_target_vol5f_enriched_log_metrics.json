@@ -1,0 +1,19 @@
+{
+  "target": "target_vol5f",
+  "features": "enriched",
+  "target_scale": "log",
+  "lookback": 60,
+  "in_dim": 24,
+  "epochs_ran": 30,
+  "best_epoch": 30,
+  "elbow_epoch": 2,
+  "test_rmse_pct_points_lstm": 6.909424781799316,
+  "test_mae_pct_points_lstm": 4.542500019073486,
+  "test_rmse_pct_points_ewm": 7.538612468612724,
+  "test_mae_pct_points_ewm": 5.235623060446279,
+  "test_rmse_pct_points_blend": 6.909425012405553,
+  "test_mae_pct_points_blend": 4.542499670986464,
+  "blend_weight_w": 1.0,
+  "dm_stat_lstm_vs_ewm_mse": -4.248428872314466,
+  "dm_pvalue_lstm_vs_ewm_mse": 2.1527497356510494e-05
+}
