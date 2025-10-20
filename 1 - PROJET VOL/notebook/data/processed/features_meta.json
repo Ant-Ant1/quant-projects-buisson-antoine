@@ -1,0 +1,13 @@
+{
+  "features": [
+    "ret_d",
+    "ret_d_clamped",
+    "vol21",
+    "vol63",
+    "vol_ewm_094",
+    "vol_pk21",
+    "vol_pk63"
+  ],
+  "trading_days": 252,
+  "ewm_lambda": 0.94
+}

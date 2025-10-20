@@ -1,0 +1,70 @@
+{
+  "collected_at_utc": "2025-09-18T10:30:48+00:00",
+  "source": "Yahoo Finance via yfinance",
+  "universe": [
+    "^GSPC",
+    "SPY",
+    "^VIX"
+  ],
+  "period": {
+    "start": "1993-01-29",
+    "end": "today"
+  },
+  "datasets": {
+    "SPX_INDEX": {
+      "ticker": "^GSPC",
+      "rows": 8215,
+      "first_date": "1993-01-29",
+      "last_date": "2025-09-17",
+      "csv": "data\\raw\\spx_index.csv",
+      "parquet": "data\\raw\\spx_index.parquet",
+      "columns": [
+        "date",
+        "close",
+        "high",
+        "low",
+        "open",
+        "volume",
+        "adj_close"
+      ]
+    },
+    "SPY_ETF": {
+      "ticker": "SPY",
+      "rows": 8215,
+      "first_date": "1993-01-29",
+      "last_date": "2025-09-17",
+      "csv": "data\\raw\\spy_etf.csv",
+      "parquet": "data\\raw\\spy_etf.parquet",
+      "columns": [
+        "date",
+        "close",
+        "high",
+        "low",
+        "open",
+        "volume",
+        "adj_close"
+      ]
+    },
+    "VIX_INDEX": {
+      "ticker": "^VIX",
+      "rows": 8216,
+      "first_date": "1993-01-29",
+      "last_date": "2025-09-18",
+      "csv": "data\\raw\\vix_index.csv",
+      "parquet": "data\\raw\\vix_index.parquet",
+      "columns": [
+        "date",
+        "close",
+        "high",
+        "low",
+        "open",
+        "volume",
+        "adj_close"
+      ]
+    }
+  },
+  "notes": [
+    "Colonnes aplanies pour éviter MultiIndex.",
+    "Prix ajustés (auto_adjust=True) pour des rendements cohérents."
+  ]
+}
